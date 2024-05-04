@@ -104,8 +104,58 @@ h6 {
     background-color: #000000;
 }
 
+/** 글자 */
+.text-inherit {
+    color: inherit;
+}
+
+.text-transparent {
+    color: transparent;
+}
+
 .text-primary-0 {
     color: #FFFFFF;
+}
+
+.text-primary-5 {
+    color: #EFF5FF;
+}
+
+.text-primary-10 {
+    color: #D3E1FB;
+}
+
+.text-primary-20 {
+    color: #A7C4F7;
+}
+
+.text-primary-30 {
+    color: #7CA6F3;
+}
+
+.text-primary-40 {
+    color: #5089EF;
+}
+
+.text-primary-50,
+.text-primary {
+    color: #246BEB;
+}
+
+.text-primary-60 {
+    color: #1D56BC;
+}
+
+.text-primary-70 {
+    color: #16408D;
+}
+
+.text-primary-80 {
+    color: #0E2B5E;
+}
+
+.text-primary-90 {
+    color: #07152F;
 }
 
 .text-primary-100 {
