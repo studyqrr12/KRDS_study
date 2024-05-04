@@ -1,16 +1,47 @@
-# KRDS_study
-디지털 정부서비스 UI/UX 가이드라인 공부
+/**
+    studyqrr12 디지털 정부서비스 UI/UX 가이드라인(KRDS) 공부용 CSS 작성
+*/
 
-[공공 서비스의 새 얼굴! 처음 만나는 디자인 시스템](https://www.inflearn.com/pages/infmation-68-20240423)<br/>
-[디지털 정부서비스 UI/UX 가이드라인](https://uiux.egovframe.go.kr/guide/index.html)
-[pretendard-gov](https://github.com/orioncactus/pretendard/tree/main/packages/pretendard-gov)
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
-# 색상
-## Primary
-![img](./assets/color-primary-bg.png)
-```
+body {
+    margin: 7px;
+}
+
+/* 초기화 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    font-size: 1.17em;
+    display: block;
+}
+
+.g-color-box {
+    width: 150px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.g-width-150px {
+    width: 150px;
+}
+
 /** 배경색 */
-
 .bg-inherit {
     background-color: inherit;
 }
@@ -72,4 +103,11 @@
 .bg-primary-100 {
     background-color: #000000;
 }
-```
+
+.text-primary-0 {
+    color: #FFFFFF;
+}
+
+.text-primary-100 {
+    color: #000000;
+}
